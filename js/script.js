@@ -47,7 +47,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[0].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[0].value == 'has') {
+            if (v2[0].value == 'had') {
               correct[1].style.display = 'inline';
               incorrect[1].style.display = 'none';
               v2[0].style.backgroundColor = '#44CB6A';
