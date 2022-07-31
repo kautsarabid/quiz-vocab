@@ -35,7 +35,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL PERTAMA(1) CH2
       buttonSubmit[0].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[0].value == 'throttle') {
+          if (v1[0].value == 'throttle' || v1[0].value == 'Throttle' || v1[0].value == 'THROTTLE') {
             correct[0].style.display = 'inline';
             incorrect[0].style.display = 'none';
             v1[0].style.backgroundColor = '#44CB6A';
@@ -47,7 +47,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[0].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[0].value == 'throttled') {
+            if (v2[0].value == 'throttled' || v2[0].value == 'Throttled' || v2[0].value == 'THROTTLED') {
               correct[1].style.display = 'inline';
               incorrect[1].style.display = 'none';
               v2[0].style.backgroundColor = '#44CB6A';
@@ -61,7 +61,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
           }
 
           for (let j = 0; j < v3.length; j++) {
-            if (v3[0].value == 'throttled') {
+            if (v3[0].value == 'throttled' || v3[0].value == 'Throttled' || v3[0].value == 'THROTTLED') {
               correct[2].style.display = 'inline';
               incorrect[2].style.display = 'none';
               v3[0].style.backgroundColor = '#44CB6A';
@@ -75,7 +75,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
           }
 
           for (let j = 0; j < ving.length; j++) {
-            if (ving[0].value == 'throttling') {
+            if (ving[0].value == 'throttling' || ving[0].value == 'Throttling' || ving[0].value == 'THROTTLING') {
               correct[3].style.display = 'inline';
               incorrect[3].style.display = 'none';
               ving[0].style.backgroundColor = '#44CB6A';
@@ -92,7 +92,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KEDUA(2) CH2
       buttonSubmit[1].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[1].value == 'revenge') {
+          if (v1[1].value == 'revenge' || v1[1].value == 'Revenge' || v1[1].value == 'REVENGE') {
             correct[4].style.display = 'inline';
             incorrect[4].style.display = 'none';
             v1[1].style.backgroundColor = '#44CB6A';
@@ -104,7 +104,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[1].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[1].value == 'revenged') {
+            if (v2[1].value == 'revenged' || v2[1].value == 'Revenged' || v2[1].value == 'REVENGED') {
               correct[5].style.display = 'inline';
               incorrect[5].style.display = 'none';
               v2[1].style.backgroundColor = '#44CB6A';
@@ -117,7 +117,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[1].value == 'revenged') {
+            if (v3[1].value == 'revenged' || v3[1].value == 'Revenged' || v3[1].value == 'REVENGED') {
               correct[6].style.display = 'inline';
               incorrect[6].style.display = 'none';
               v3[1].style.backgroundColor = '#44CB6A';
@@ -130,7 +130,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[1].value == 'revenging') {
+            if (ving[1].value == 'revenging' || ving[1].value == 'Revenging' || ving[1].value == 'REVENGING') {
               correct[7].style.display = 'inline';
               incorrect[7].style.display = 'none';
               ving[1].style.backgroundColor = '#44CB6A';
@@ -147,7 +147,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KETIGA(3) CH2
       buttonSubmit[2].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[2].value == 'magnify') {
+          if (v1[2].value == 'magnify' || v1[2].value == 'Magnify' || v1[2].value == 'MAGNIFY') {
             correct[8].style.display = 'inline';
             incorrect[8].style.display = 'none';
             v1[2].style.backgroundColor = '#44CB6A';
@@ -159,7 +159,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[2].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[2].value == 'magnified') {
+            if (v2[2].value == 'magnified' || v2[2].value == 'Magnified' || v2[2].value == 'MAGNIFIED') {
               correct[9].style.display = 'inline';
               incorrect[9].style.display = 'none';
               v2[2].style.backgroundColor = '#44CB6A';
@@ -172,7 +172,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[2].value == 'magnified') {
+            if (v3[2].value == 'magnified' || v3[2].value == 'Magnified' || v3[2].value == 'MAGNIFIED') {
               correct[10].style.display = 'inline';
               incorrect[10].style.display = 'none';
               v3[2].style.backgroundColor = '#44CB6A';
@@ -185,7 +185,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[2].value == 'magnifying') {
+            if (ving[2].value == 'magnifying' || ving[2].value == 'Magnifying' || ving[2].value == 'MAGNIFYING') {
               correct[11].style.display = 'inline';
               incorrect[11].style.display = 'none';
               ving[2].style.backgroundColor = '#44CB6A';
@@ -202,7 +202,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       // SOAL KEEMPAT(4) CH2
       buttonSubmit[3].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[3].value == 'evict') {
+          if (v1[3].value == 'evict' || v1[3].value == 'Evict' || v1[3].value == 'EVICT') {
             correct[12].style.display = 'inline';
             incorrect[12].style.display = 'none';
             v1[3].style.backgroundColor = '#44CB6A';
@@ -214,7 +214,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[3].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[3].value == 'evicted') {
+            if (v2[3].value == 'evicted' || v2[3].value == 'Evicted' || v2[3].value == 'EVICTED') {
               correct[13].style.display = 'inline';
               incorrect[13].style.display = 'none';
               v2[3].style.backgroundColor = '#44CB6A';
@@ -227,7 +227,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[3].value == 'evicted') {
+            if (v3[3].value == 'evicted' || v3[3].value == 'Evicted' || v3[3].value == 'EVICTED') {
               correct[14].style.display = 'inline';
               incorrect[14].style.display = 'none';
               v3[3].style.backgroundColor = '#44CB6A';
@@ -240,7 +240,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[3].value == 'evicting') {
+            if (ving[3].value == 'evicting' || ving[3].value == 'Evicting' || ving[3].value == 'EVICTING') {
               correct[15].style.display = 'inline';
               incorrect[15].style.display = 'none';
               ving[3].style.backgroundColor = '#44CB6A';
@@ -257,7 +257,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KELIMA(5) CH2
       buttonSubmit[4].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[4].value == 'falsify') {
+          if (v1[4].value == 'falsify' || v1[4].value == 'Falsify' || v1[4].value == 'FALSIFY') {
             correct[16].style.display = 'inline';
             incorrect[16].style.display = 'none';
             v1[4].style.backgroundColor = '#44CB6A';
@@ -269,7 +269,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[4].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[4].value == 'falsified') {
+            if (v2[4].value == 'falsified' || v2[4].value == 'Falsified' || v2[4].value == 'FALSIFIED') {
               correct[17].style.display = 'inline';
               incorrect[17].style.display = 'none';
               v2[4].style.backgroundColor = '#44CB6A';
@@ -282,7 +282,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[4].value == 'falsified') {
+            if (v3[4].value == 'falsified' || v3[4].value == 'Falsified' || v3[4].value == 'FALSIFIED') {
               correct[18].style.display = 'inline';
               incorrect[18].style.display = 'none';
               v3[4].style.backgroundColor = '#44CB6A';
@@ -295,7 +295,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[4].value == 'falsifying') {
+            if (ving[4].value == 'falsifying' || ving[4].value == 'Falsifying' || ving[4].value == 'FALSIFYING') {
               correct[19].style.display = 'inline';
               incorrect[19].style.display = 'none';
               ving[4].style.backgroundColor = '#44CB6A';

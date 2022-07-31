@@ -35,7 +35,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL PERTAMA(1) CH2
       buttonSubmit[0].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[0].value == 'regret') {
+          if (v1[0].value == 'regret' || v1[0].value == 'Regret' || v1[0].value == 'REGRET') {
             correct[0].style.display = 'inline';
             incorrect[0].style.display = 'none';
             v1[0].style.backgroundColor = '#44CB6A';
@@ -47,7 +47,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[0].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[0].value == 'regretted') {
+            if (v2[0].value == 'regretted' || v2[0].value == 'Regretted' || v2[0].value == 'REGRETTED') {
               correct[1].style.display = 'inline';
               incorrect[1].style.display = 'none';
               v2[0].style.backgroundColor = '#44CB6A';
@@ -61,7 +61,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
           }
 
           for (let j = 0; j < v3.length; j++) {
-            if (v3[0].value == 'regretted') {
+            if (v3[0].value == 'regretted' || v3[0].value == 'Regretted' || v3[0].value == 'REGRETTED') {
               correct[2].style.display = 'inline';
               incorrect[2].style.display = 'none';
               v3[0].style.backgroundColor = '#44CB6A';
@@ -75,7 +75,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
           }
 
           for (let j = 0; j < ving.length; j++) {
-            if (ving[0].value == 'regretting') {
+            if (ving[0].value == 'regretting' || ving[0].value == 'Regretting' || ving[0].value == 'REGRETTING') {
               correct[3].style.display = 'inline';
               incorrect[3].style.display = 'none';
               ving[0].style.backgroundColor = '#44CB6A';
@@ -92,7 +92,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KEDUA(2) CH2
       buttonSubmit[1].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[1].value == 'mingle') {
+          if (v1[1].value == 'mingle' || v1[1].value == 'Mingle' || v1[1].value == 'MINGLE') {
             correct[4].style.display = 'inline';
             incorrect[4].style.display = 'none';
             v1[1].style.backgroundColor = '#44CB6A';
@@ -104,7 +104,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[1].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[1].value == 'mingled') {
+            if (v2[1].value == 'mingled' || v2[1].value == 'Mingled' || v2[1].value == 'MINGLED') {
               correct[5].style.display = 'inline';
               incorrect[5].style.display = 'none';
               v2[1].style.backgroundColor = '#44CB6A';
@@ -117,7 +117,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[1].value == 'mingled') {
+            if (v3[1].value == 'mingled' || v3[1].value == 'Mingled' || v3[1].value == 'MINGLED') {
               correct[6].style.display = 'inline';
               incorrect[6].style.display = 'none';
               v3[1].style.backgroundColor = '#44CB6A';
@@ -130,7 +130,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[1].value == 'mingling') {
+            if (ving[1].value == 'mingling' || ving[1].value == 'Mingling' || ving[1].value == 'MINGLING') {
               correct[7].style.display = 'inline';
               incorrect[7].style.display = 'none';
               ving[1].style.backgroundColor = '#44CB6A';
@@ -147,7 +147,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KETIGA(3) CH2
       buttonSubmit[2].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[2].value == 'intimidate') {
+          if (v1[2].value == 'intimidate' || v1[2].value == 'Intimidate' || v1[2].value == 'INTIMIDATE') {
             correct[8].style.display = 'inline';
             incorrect[8].style.display = 'none';
             v1[2].style.backgroundColor = '#44CB6A';
@@ -159,7 +159,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[2].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[2].value == 'intimidated') {
+            if (v2[2].value == 'intimidated' || v2[2].value == 'Intimidated' || v2[2].value == 'INTIMIDATED') {
               correct[9].style.display = 'inline';
               incorrect[9].style.display = 'none';
               v2[2].style.backgroundColor = '#44CB6A';
@@ -172,7 +172,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[2].value == 'intimidated') {
+            if (v3[2].value == 'intimidated' || v3[2].value == 'Intimidated' || v3[2].value == 'INTIMIDATED') {
               correct[10].style.display = 'inline';
               incorrect[10].style.display = 'none';
               v3[2].style.backgroundColor = '#44CB6A';
@@ -185,7 +185,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[2].value == 'intimidating') {
+            if (ving[2].value == 'intimidating' || ving[2].value == 'Intimidating' || ving[2].value == 'INTIMIDATING') {
               correct[11].style.display = 'inline';
               incorrect[11].style.display = 'none';
               ving[2].style.backgroundColor = '#44CB6A';
@@ -202,7 +202,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       // SOAL KEEMPAT(4) CH2
       buttonSubmit[3].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[3].value == 'oversleep') {
+          if (v1[3].value == 'oversleep' || v1[3].value == 'Oversleep' || v1[3].value == 'OVERSLEEP') {
             correct[12].style.display = 'inline';
             incorrect[12].style.display = 'none';
             v1[3].style.backgroundColor = '#44CB6A';
@@ -214,7 +214,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[3].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[3].value == 'overslept') {
+            if (v2[3].value == 'overslept' || v2[3].value == 'Overslept' || v2[3].value == 'OVERSLEPT') {
               correct[13].style.display = 'inline';
               incorrect[13].style.display = 'none';
               v2[3].style.backgroundColor = '#44CB6A';
@@ -227,7 +227,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[3].value == 'overslept') {
+            if (v3[3].value == 'overslept' || v3[3].value == 'Overslept' || v3[3].value == 'OVERSLEPT') {
               correct[14].style.display = 'inline';
               incorrect[14].style.display = 'none';
               v3[3].style.backgroundColor = '#44CB6A';
@@ -240,7 +240,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[3].value == 'oversleeping') {
+            if (ving[3].value == 'oversleeping' || ving[3].value == 'Oversleeping' || ving[3].value == 'OVERSLEEPING') {
               correct[15].style.display = 'inline';
               incorrect[15].style.display = 'none';
               ving[3].style.backgroundColor = '#44CB6A';
@@ -257,7 +257,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
       //SOAL KELIMA(5) CH2
       buttonSubmit[4].addEventListener('click', function () {
         for (let j = 0; j < v1.length; j++) {
-          if (v1[4].value == 'repeat') {
+          if (v1[4].value == 'repeat' || v1[4].value == 'Repeat' || v1[4].value == 'REPEAT') {
             correct[16].style.display = 'inline';
             incorrect[16].style.display = 'none';
             v1[4].style.backgroundColor = '#44CB6A';
@@ -269,7 +269,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             v1[4].style.border = 'none';
           }
           for (let j = 0; j < v2.length; j++) {
-            if (v2[4].value == 'repeated') {
+            if (v2[4].value == 'repeated' || v2[4].value == 'Repeated' || v2[4].value == 'REPEATED') {
               correct[17].style.display = 'inline';
               incorrect[17].style.display = 'none';
               v2[4].style.backgroundColor = '#44CB6A';
@@ -282,7 +282,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < v3.length; j++) {
-            if (v3[4].value == 'repeated') {
+            if (v3[4].value == 'repeated' || v3[4].value == 'Repeated' || v3[4].value == 'REPEATED') {
               correct[18].style.display = 'inline';
               incorrect[18].style.display = 'none';
               v3[4].style.backgroundColor = '#44CB6A';
@@ -295,7 +295,7 @@ for (let i = 0; i < buttonSubmit.length; i++) {
             }
           }
           for (let j = 0; j < ving.length; j++) {
-            if (ving[4].value == 'repeating') {
+            if (ving[4].value == 'repeating' || ving[4].value == 'Repeating' || ving[4].value == 'REPEATING') {
               correct[19].style.display = 'inline';
               incorrect[19].style.display = 'none';
               ving[4].style.backgroundColor = '#44CB6A';
