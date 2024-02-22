@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050206;
+    color: #f2f2f2;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+/*
+**** GLOBAL ****
+*/
+
+main section#about h2,section#contact h2{
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+/*
+    NAVBAR
+*/
+
+nav a.logo{
+    font-family: "Honk", system-ui;
+    font-size: 2em;
+}
+
+nav .navbar-toggler{
+    background-color: #f2f2f2;
+}
+
+.navbar__style{
+    background-color: #9A8174;
+    color: #fffafa;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .5s;
+}
+
+/*
+    SECTION HERO
+*/
+
+main section.hero__section {
+    height: 100vh;
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+main section.hero__section p{
+    opacity: 65%;
+}
+
+main section.hero__section h1{
+    font-size: 4em;
+    font-family: "Playfair Display", serif;
+}
+
+main section.hero__section img#hiasan__1{
+    position: absolute;
+    left: 35em;
+    top: -5em;
+    z-index: -999;
+}
+
+main section.hero__section img#hiasan__2{
+    position: absolute;
+    right: 34em;
+    bottom: -10em;
+    z-index: -999;
+}
+
+/*
+SECTION ABOUT
+*/
+
+main section#about{
+    color: #050206;
+    height: 70vh;
+    background-color: #fffafa;
+}
+
+/*
+    SECTION CONTACT
+*/
+main section#contact{
+    height: 50vh;
+}
+
+main section#contact span i{
+    font-size: 3em;
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+/*
+    FOOTER
+*/
+footer{
+    background-color: #9A8174;
+}
+
+footer p{
+    margin-bottom: 0;
+    padding: .5em 0 .5em 0;
+}
